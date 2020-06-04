@@ -19,7 +19,7 @@ module.exports = {
         projectId: "v0cx9f3n",
         dataset: "production",
       },
-    }.
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
