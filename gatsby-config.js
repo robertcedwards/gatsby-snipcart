@@ -14,6 +14,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "v0cx9f3n",
+        dataset: "production",
+      },
+    }.
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
